@@ -1,0 +1,4 @@
+curl -X POST http://127.0.0.1:8000/transcribe -H "Content-Type: multipart/form-data" -F "file=@trial1.mp3"
+
+
+uvicorn demo:app --reload
